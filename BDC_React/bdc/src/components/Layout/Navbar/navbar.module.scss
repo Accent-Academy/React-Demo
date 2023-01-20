@@ -1,0 +1,30 @@
+@import "../../../scss/varaible.scss";
+@import "../../../scss/mixin.scss";
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+.logo{
+    width: 81px;
+    height: 23px;
+    object-fit: contain;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    li{
+        list-style: none;
+    }
+}
+
+.login{
+    background-color:$black_color ;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 4px;
+}

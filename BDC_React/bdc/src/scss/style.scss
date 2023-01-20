@@ -1,0 +1,19 @@
+
+@import "../scss/varaible.scss";
+@import "../scss/mixin.scss";
+@import "../components/Pages/Home/Courses/course.scss";
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.swiper-backface-hidden{border-radius: 30px;}
+#err{
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+}
